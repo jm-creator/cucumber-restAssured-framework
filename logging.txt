@@ -1,0 +1,36 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "JM-CREATOR",
+    "phone_number": "+54 362 4666666",
+    "address": "Av Alverdi 2000 & Av Marconi",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Spanish-ES",
+    "location": null,
+    "types": [
+        "green-house",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2020 19:37:54 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8
